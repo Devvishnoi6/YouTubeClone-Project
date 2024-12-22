@@ -1,4 +1,4 @@
-# YouTube Clone ( MERN stack video sharing app )
+# YouTube Clone ( MERN stack project)
 ```
 # ReactJS in the frontend
 # State management in the frontend using Redux & Redux Toolkit
@@ -58,5 +58,3 @@ cd frontend
 npm start
 ```
 
-## Demo can be found here
-https://mern-youtubeclone.herokuapp.com/
