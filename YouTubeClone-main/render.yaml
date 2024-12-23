@@ -1,0 +1,14 @@
+# render.yaml
+
+services:
+  - type: web
+    name: youtube-backend
+    env: node
+    buildCommand: cd src/backend && npm install
+    startCommand: cd src/backend && npm start
+
+  - type: web
+    name: youtube-frontend
+    env: static
+    buildCommand: cd src/frontend && npm install && npm run build
+    staticPublishPath: src/frontend/build
